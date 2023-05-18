@@ -1,0 +1,80 @@
+tech_mlct_management_protocols = {
+	cost = @tier2cost3
+	area = society
+	tier = 2
+	category = { statecraft }
+	# prerequisites = { "tech_planetary_unification" }
+	weight = @tier2weight1
+
+	modifier = {
+		country_leader_cap_add = 1
+	}
+
+	ai_weight = {
+	}
+}
+
+
+# @tier5cost3 = 48000
+
+tech_mlct_leaders_of_the_people_1 = {
+	cost = @tier5cost3
+	area = society
+	tier = 5
+	is_rare = yes
+	category = { statecraft }
+	weight = @tier5weight3
+
+	potential = {
+		num_pops >= 100
+	}
+
+	modifier = {
+		country_leader_cap_add = 1
+	}
+
+	ai_weight = {
+	}
+}
+
+tech_mlct_leaders_of_the_people_2 = {
+	cost = 58000
+	area = society
+	tier = 5
+	is_rare = yes
+	category = { statecraft }
+	weight = @tier5weight3
+	prerequisites = { "tech_mlct_leaders_of_the_people_1" }
+
+	potential = {
+		num_pops >= 225
+	}
+
+	modifier = {
+		country_leader_cap_add = 1
+	}
+
+	ai_weight = {
+	}
+}
+
+tech_mlct_leaders_of_the_people_3 = {
+	cost = 70000
+	area = society
+	tier = 5
+	is_rare = yes
+	category = { statecraft }
+	weight = @tier5weight3
+	prerequisites = { "tech_mlct_leaders_of_the_people_2" }
+
+	potential = {
+		num_pops >= 350
+	}
+
+	modifier = {
+		country_leader_cap_add = 1
+	}
+
+	ai_weight = {
+	}
+}
