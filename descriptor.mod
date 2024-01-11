@@ -1,9 +1,9 @@
-version="1.1.0"
+version="1.1.1"
 tags={
 	"Leaders"
 	"Technologies"
 }
-name="More Leaders Cap Tech Lite 3.8"
+name="More Leaders Cap Tech Lite"
 picture="thumbnail.png"
-supported_version="3.8.2"
+supported_version="3.10.*"
 remote_file_id="2977513409"
